@@ -1,0 +1,92 @@
+{
+  "included": [],
+  "meta": {
+    "pagination": { "count": 31, "per_page": 10, "pages": 4, "page": 1 }
+  },
+  "data": [
+    {
+      "relationships": {
+        "default_product_collection": {
+          "data": { "type": "product_collections", "id": "38" }
+        },
+        "partner": { "data": { "type": "partners", "id": "832" } },
+        "region": { "data": { "type": "regions", "id": "9631" } },
+        "classrooms": { "data": [{ "type": "classrooms", "id": "3353" }] },
+        "site": { "data": { "type": "sites", "id": "12009" } }
+      },
+      "attributes": {
+        "address_line2": "",
+        "state_province": "ST",
+        "address_line1": "Addr",
+        "name": "Name",
+        "city": "City",
+        "email_address": "NN",
+        "longitude": "-11.01",
+        "user_has_turf_access": false,
+        "postal_code": "11111",
+        "listed": true,
+        "latitude": "11.01",
+        "timezone": "US/Eastern",
+        "phone_number": "1112223333",
+        "description": null
+      },
+      "type": "locations",
+      "id": "11111"
+    },
+    {
+      "relationships": {
+        "default_product_collection": {
+          "data": {
+            "type": "product_collections",
+            "id": "38"
+          }
+        },
+        "partner": {
+          "data": {
+            "type": "partners",
+            "id": "832"
+          }
+        },
+        "region": {
+          "data": {
+            "type": "regions",
+            "id": "9631"
+          }
+        },
+        "classrooms": {
+          "data": [
+            {
+              "type": "classrooms",
+              "id": "3353"
+            }
+          ]
+        },
+        "site": {
+          "data": {
+            "type": "sites",
+            "id": "12009"
+          }
+        }
+      },
+      "attributes": {
+        "address_line2": "",
+        "state_province": "ST",
+        "address_line1": "Addr",
+        "name": "Name",
+        "city": "City",
+        "email_address": "NN",
+        "longitude": "-11.01",
+        "user_has_turf_access": false,
+        "postal_code": "11111",
+        "listed": true,
+        "latitude": "11.01",
+        "timezone": "US/Eastern",
+        "phone_number": "1112223333",
+        "description": null
+      },
+      "type": "locations",
+      "id": "11111"
+    }
+  ],
+  "links": null
+}

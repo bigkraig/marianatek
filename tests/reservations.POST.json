@@ -1,0 +1,44 @@
+{
+  "data": {
+    "attributes": {
+      "booked_by": null,
+      "booked_for": null,
+      "status": null,
+      "creation_date": null,
+      "cancel_date": null,
+      "reservation_type": "standard",
+      "check_in_date": null,
+      "reserved_for_guest": false,
+      "waitlist_weight": null,
+      "guest_email": null,
+      "payment_options": [
+        {
+          "count": 1,
+          "payment_option_id": 11111,
+          "type": "membership"
+        }
+      ]
+    },
+    "relationships": {
+      "class_session": {
+        "data": {
+          "type": "class_sessions",
+          "id": "11111"
+        }
+      },
+      "spot": {
+        "data": {
+          "type": "spots",
+          "id": "11111"
+        }
+      },
+      "user": {
+        "data": {
+          "type": "users",
+          "id": "11111"
+        }
+      }
+    },
+    "type": "reservations"
+  }
+}

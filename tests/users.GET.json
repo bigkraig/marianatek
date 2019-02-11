@@ -1,0 +1,60 @@
+{
+  "included": [],
+  "meta": null,
+  "data": {
+    "relationships": {
+      "home_location": {
+        "data": {
+          "type": "locations",
+          "id": "11111"
+        }
+      },
+      "profile_values": {
+        "data": []
+      },
+      "last_region": {
+        "data": null
+      },
+      "tags": {
+        "data": [
+          {
+            "type": "user_tags",
+            "id": "8"
+          }
+        ]
+      }
+    },
+    "attributes": {
+      "last_name": "last name",
+      "emergency_contact_phone": "",
+      "third_party_sync": false,
+      "apply_account_balance_to_fees": false,
+      "is_staff": false,
+      "postal_code": "99999",
+      "full_name": "full name",
+      "waiver_signed_datetime": "2001-01-01T08:20:00Z",
+      "address_line2": "",
+      "city": "City",
+      "first_name": "first name",
+      "address_line1": "addr",
+      "signed_waiver": true,
+      "emergency_contact_relationship": null,
+      "phone_number": "1231231122",
+      "has_vip_tag_cache": false,
+      "account_balance": 0.0,
+      "is_minimal": false,
+      "permissions": [],
+      "state_province": "ST",
+      "gender": null,
+      "email": "email@address",
+      "emergency_contact_email": null,
+      "emergency_contact_name": "",
+      "country": null,
+      "birth_date": null,
+      "marketing_opt_in": true
+    },
+    "type": "users",
+    "id": "11111"
+  },
+  "links": null
+}

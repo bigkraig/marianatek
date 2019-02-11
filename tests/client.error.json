@@ -1,0 +1,7 @@
+{
+  "errors": {
+    "spot": [
+      "This spot is already taken."
+    ]
+  }
+}

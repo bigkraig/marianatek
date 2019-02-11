@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "type": "payment_options",
+      "id": "membership_11111",
+      "attributes": {
+        "name": "Name",
+        "expiration_datetime": null,
+        "count": 1,
+        "payment_option_id": 11111,
+        "payment_option_type": "membership",
+        "payment_description": "XXX"
+      },
+      "relationships": {
+        "payment_option": {
+          "data": {
+            "type": "membership_transactions",
+            "id": "11111"
+          }
+        }
+      }
+    },
+    {
+      "type": "payment_options",
+      "id": "credit_11111",
+      "attributes": {
+        "name": "Name",
+        "expiration_datetime": "2018-12-13T12:00:00Z",
+        "count": 36,
+        "payment_option_id": 11111,
+        "payment_option_type": "credit",
+        "payment_description": "XXX"
+      },
+      "relationships": {
+        "payment_option": {
+          "data": {
+            "type": "credit_transactions",
+            "id": "11111"
+          }
+        }
+      }
+    }
+  ]
+}

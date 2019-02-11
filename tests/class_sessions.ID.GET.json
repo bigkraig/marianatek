@@ -1,0 +1,1228 @@
+{
+  "included": [
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spots": {
+          "data": [
+            { "type": "spots", "id": "27237" },
+            { "type": "spots", "id": "27276" },
+            { "type": "spots", "id": "27244" },
+            { "type": "spots", "id": "27253" },
+            { "type": "spots", "id": "27265" },
+            { "type": "spots", "id": "27242" },
+            { "type": "spots", "id": "27272" },
+            { "type": "spots", "id": "27260" },
+            { "type": "spots", "id": "27264" },
+            { "type": "spots", "id": "27234" },
+            { "type": "spots", "id": "27270" },
+            { "type": "spots", "id": "27274" },
+            { "type": "spots", "id": "27254" },
+            { "type": "spots", "id": "27232" },
+            { "type": "spots", "id": "27262" },
+            { "type": "spots", "id": "27275" },
+            { "type": "spots", "id": "27266" },
+            { "type": "spots", "id": "27238" },
+            { "type": "spots", "id": "27248" },
+            { "type": "spots", "id": "27230" },
+            { "type": "spots", "id": "27247" },
+            { "type": "spots", "id": "27239" },
+            { "type": "spots", "id": "27231" },
+            { "type": "spots", "id": "27256" },
+            { "type": "spots", "id": "27267" },
+            { "type": "spots", "id": "27241" },
+            { "type": "spots", "id": "27240" },
+            { "type": "spots", "id": "27245" },
+            { "type": "spots", "id": "27255" },
+            { "type": "spots", "id": "27246" },
+            { "type": "spots", "id": "27268" },
+            { "type": "spots", "id": "27277" },
+            { "type": "spots", "id": "27236" },
+            { "type": "spots", "id": "27243" },
+            { "type": "spots", "id": "27249" },
+            { "type": "spots", "id": "27263" },
+            { "type": "spots", "id": "27235" },
+            { "type": "spots", "id": "27271" },
+            { "type": "spots", "id": "27273" },
+            { "type": "spots", "id": "27251" },
+            { "type": "spots", "id": "27261" },
+            { "type": "spots", "id": "27259" },
+            { "type": "spots", "id": "27233" },
+            { "type": "spots", "id": "27269" },
+            { "type": "spots", "id": "27257" },
+            { "type": "spots", "id": "27250" },
+            { "type": "spots", "id": "27252" },
+            { "type": "spots", "id": "27278" },
+            { "type": "spots", "id": "27258" }
+          ]
+        },
+        "site": { "data": { "type": "sites", "id": "12009" } }
+      },
+      "attributes": {
+        "listed": true,
+        "capacity": 49,
+        "name": "West Hollywood",
+        "format": "pick-a-spot"
+      },
+      "type": "layouts",
+      "id": "3330"
+    },
+    {
+      "relationships": {
+        "product_collection_to_product_comparison_assignments": {
+          "data": [
+            {
+              "type": "product_collection_to_product_comparison_assignments",
+              "id": "79"
+            },
+            {
+              "type": "product_collection_to_product_comparison_assignments",
+              "id": "80"
+            }
+          ]
+        }
+      },
+      "attributes": {
+        "name": "LA Add-Ons Product Collection",
+        "slug": "la-addons-product-collection"
+      },
+      "type": "product_collections",
+      "id": "25"
+    },
+    {
+      "relationships": {
+        "classrooms": { "data": [{ "type": "classrooms", "id": "3355" }] },
+        "addons_product_collection": {
+          "data": { "type": "product_collections", "id": "25" }
+        },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "default_product_collection": {
+          "data": { "type": "product_collections", "id": "23" }
+        },
+        "partner": { "data": { "type": "partners", "id": "801" } }
+      },
+      "attributes": {
+        "address_line2": "",
+        "state_province": "CA",
+        "address_line1": "1106 N. La Cienega Blvd.",
+        "name": "West Hollywood",
+        "city": "West Hollywood",
+        "email_address": "weho@barrysbootcamp.com",
+        "longitude": "-118.3781467",
+        "postal_code": "90069",
+        "listed": true,
+        "latitude": "34.0910000",
+        "timezone": "US/Pacific",
+        "phone_number": "3103606262",
+        "description": ""
+      },
+      "type": "locations",
+      "id": "9595"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-20",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "15.50",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27277"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-16",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "14.30",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27276"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-15",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "11.90",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27274"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-12",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "10.70",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27273"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-11",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "9.50",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27272"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-10",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "8.30",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27271"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-2",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "1.70",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27267"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-1",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "0.50",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27266"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-19",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "15.60",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27263"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-18",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "14.40",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27262"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-14",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "12.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27260"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-13",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "10.80",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27259"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-9",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "7.20",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27256"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-8",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "6.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27255"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-6",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "3.60",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27253"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-5",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "2.40",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27252"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-4",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "1.20",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27251"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-3",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "0.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27250"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-19",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "18.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27248"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-18",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "17.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27247"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-17",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "16.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27246"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-16",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "15.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27245"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-15",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "14.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27244"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-14",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "13.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27243"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-13",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "12.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27242"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-12",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "11.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27241"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-11",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "10.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27240"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-10",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "9.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27239"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-9",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "8.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27238"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-8",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "7.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27237"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-7",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "6.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27236"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-6",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "5.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27235"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-5",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "4.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27234"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-4",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "3.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27233"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-3",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "2.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27232"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-2",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "1.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27231"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "4" } }
+      },
+      "attributes": {
+        "name": "DF-27",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "16.70",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27278"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "4" } }
+      },
+      "attributes": {
+        "name": "DF-26",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "13.10",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27275"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "4" } }
+      },
+      "attributes": {
+        "name": "DF-23",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "7.10",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27270"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "4" } }
+      },
+      "attributes": {
+        "name": "DF-22",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "5.90",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27269"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "4" } }
+      },
+      "attributes": {
+        "name": "DF-21",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "4.70",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27268"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "4" } }
+      },
+      "attributes": {
+        "name": "DF-29",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "18.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27265"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "4" } }
+      },
+      "attributes": {
+        "name": "DF-28",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "16.80",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27264"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "4" } }
+      },
+      "attributes": {
+        "name": "DF-25",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "9.60",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27258"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "4" } }
+      },
+      "attributes": {
+        "name": "DF-24",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "8.40",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27257"
+    }
+  ],
+  "meta": null,
+  "data": {
+    "relationships": {
+      "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+      "spot_holds": { "data": [] },
+      "class_session_type": {
+        "data": { "type": "class_session_types", "id": "3152" }
+      },
+      "layout": { "data": { "type": "layouts", "id": "3330" } },
+      "employee_public_profiles": {
+        "data": [{ "type": "employee_public_profiles", "id": "3677" }]
+      },
+      "tags": { "data": [] },
+      "reservations": {
+        "data": [
+          { "type": "reservations", "id": "6135112" },
+          { "type": "reservations", "id": "6126518" },
+          { "type": "reservations", "id": "6129610" },
+          { "type": "reservations", "id": "6124750" }
+        ]
+      },
+      "instructors": { "data": [{ "type": "employees", "id": "1175" }] },
+      "substituted_instructors": { "data": [] },
+      "available_primary_spots": {
+        "data": [
+          { "type": "spots", "id": "27277" },
+          { "type": "spots", "id": "27276" },
+          { "type": "spots", "id": "27274" },
+          { "type": "spots", "id": "27273" },
+          { "type": "spots", "id": "27272" },
+          { "type": "spots", "id": "27271" },
+          { "type": "spots", "id": "27267" },
+          { "type": "spots", "id": "27266" },
+          { "type": "spots", "id": "27263" },
+          { "type": "spots", "id": "27262" },
+          { "type": "spots", "id": "27260" },
+          { "type": "spots", "id": "27259" },
+          { "type": "spots", "id": "27256" },
+          { "type": "spots", "id": "27255" },
+          { "type": "spots", "id": "27253" },
+          { "type": "spots", "id": "27252" },
+          { "type": "spots", "id": "27251" },
+          { "type": "spots", "id": "27250" },
+          { "type": "spots", "id": "27248" },
+          { "type": "spots", "id": "27247" },
+          { "type": "spots", "id": "27246" },
+          { "type": "spots", "id": "27245" },
+          { "type": "spots", "id": "27244" },
+          { "type": "spots", "id": "27243" },
+          { "type": "spots", "id": "27242" },
+          { "type": "spots", "id": "27241" },
+          { "type": "spots", "id": "27240" },
+          { "type": "spots", "id": "27239" },
+          { "type": "spots", "id": "27238" },
+          { "type": "spots", "id": "27237" },
+          { "type": "spots", "id": "27236" },
+          { "type": "spots", "id": "27235" },
+          { "type": "spots", "id": "27234" },
+          { "type": "spots", "id": "27233" },
+          { "type": "spots", "id": "27232" },
+          { "type": "spots", "id": "27231" }
+        ]
+      },
+      "class_session_notes": { "data": [] },
+      "location": { "data": { "type": "locations", "id": "9595" } },
+      "available_secondary_spots": {
+        "data": [
+          { "type": "spots", "id": "27278" },
+          { "type": "spots", "id": "27275" },
+          { "type": "spots", "id": "27270" },
+          { "type": "spots", "id": "27269" },
+          { "type": "spots", "id": "27268" },
+          { "type": "spots", "id": "27265" },
+          { "type": "spots", "id": "27264" },
+          { "type": "spots", "id": "27258" },
+          { "type": "spots", "id": "27257" }
+        ]
+      },
+      "booking_windows": {
+        "data": [
+          { "type": "booking_windows", "id": "14080" },
+          { "type": "booking_windows", "id": "14081" }
+        ]
+      },
+      "cancelled_by_user": { "data": null }
+    },
+    "attributes": {
+      "start_datetime": "2018-06-01T15:30:00Z",
+      "capacity": 49,
+      "standard_reservation_user_count": 4,
+      "checked_in_user_count": 0,
+      "standby_availability": 0,
+      "start_time": "08:30:00",
+      "recurring_status": "in_sync",
+      "waitlist_reservation_user_count": 0,
+      "standby_capacity": 0,
+      "public": true,
+      "slot_price": [{ "count": 1, "slot_type": 684 }],
+      "vip_user_count": 0,
+      "end_datetime": "2018-06-01T16:30:00Z",
+      "cancellation_datetime": null,
+      "archived_at": null,
+      "available_spots": [
+        27278,
+        27277,
+        27276,
+        27275,
+        27274,
+        27273,
+        27272,
+        27271,
+        27270,
+        27269,
+        27268,
+        27267,
+        27266,
+        27265,
+        27264,
+        27263,
+        27262,
+        27260,
+        27259,
+        27258,
+        27257,
+        27256,
+        27255,
+        27253,
+        27252,
+        27251,
+        27250,
+        27248,
+        27247,
+        27246,
+        27245,
+        27244,
+        27243,
+        27242,
+        27241,
+        27240,
+        27239,
+        27238,
+        27237,
+        27236,
+        27235,
+        27234,
+        27233,
+        27232,
+        27231
+      ],
+      "public_note": null,
+      "start_date": "2018-06-01",
+      "first_time_user_count": 0
+    },
+    "type": "class_sessions",
+    "id": "244346"
+  },
+  "links": null
+}

@@ -1,0 +1,102 @@
+{
+  "included": [
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "11111" } },
+        "region": { "data": { "type": "regions", "id": "11111" } },
+        "location": { "data": { "type": "locations", "id": "11111" } },
+        "spots": {
+          "data": [
+            { "type": "spots", "id": "11111" }
+          ]
+        },
+        "site": { "data": { "type": "sites", "id": "11111" } }
+      },
+      "attributes": {
+        "listed": true,
+        "capacity": 50,
+        "name": "Name",
+        "format": "pick-a-spot"
+      },
+      "type": "layouts",
+      "id": "11111"
+    },
+    {
+      "relationships": {
+        "product_collection_to_product_comparison_assignments": {
+          "data": [
+            {
+              "type": "product_collection_to_product_comparison_assignments",
+              "id": "79"
+            },
+            {
+              "type": "product_collection_to_product_comparison_assignments",
+              "id": "80"
+            }
+          ]
+        }
+      },
+      "attributes": {
+        "name": "LA Add-Ons Product Collection",
+        "slug": "la-addons-product-collection"
+      },
+      "type": "product_collections",
+      "id": "25"
+    },
+    {
+      "relationships": {
+        "classrooms": { "data": [{ "type": "classrooms", "id": "3355" }] },
+        "addons_product_collection": {
+          "data": { "type": "product_collections", "id": "25" }
+        },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "default_product_collection": {
+          "data": { "type": "product_collections", "id": "23" }
+        },
+        "partner": { "data": { "type": "partners", "id": "801" } }
+      },
+      "attributes": {
+        "address_line2": "",
+        "state_province": "CA",
+        "address_line1": "1106 N. La Cienega Blvd.",
+        "name": "West Hollywood",
+        "city": "West Hollywood",
+        "email_address": "weho@barrysbootcamp.com",
+        "longitude": "-118.3781467",
+        "postal_code": "90069",
+        "listed": true,
+        "latitude": "34.0910000",
+        "timezone": "US/Pacific",
+        "phone_number": "3103606262",
+        "description": ""
+      },
+      "type": "locations",
+      "id": "9595"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-20",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "15.50",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27277"
+    }
+  ],
+  "meta": null,
+  "data": null,
+  "links": null
+}

@@ -1,0 +1,2606 @@
+{
+  "included": [
+    {
+      "relationships": {},
+      "attributes": {
+        "duration": 60,
+        "enabled": true,
+        "name": "Full Body (60 Minutes)",
+        "description": null
+      },
+      "type": "class_session_types",
+      "id": "3152"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-20",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "15.50",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27277"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-16",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "14.30",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27276"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-15",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "11.90",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27274"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-12",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "10.70",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27273"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-11",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "9.50",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27272"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-10",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "8.30",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27271"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-2",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "1.70",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27267"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-1",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "0.50",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27266"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-19",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "15.60",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27263"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-18",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "14.40",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27262"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-17",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "13.20",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27261"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-14",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "12.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27260"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-13",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "10.80",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27259"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-9",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "7.20",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27256"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-8",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "6.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27255"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-7",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "4.80",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27254"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-6",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "3.60",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27253"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-5",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "2.40",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27252"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-4",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "1.20",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27251"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "2" } }
+      },
+      "attributes": {
+        "name": "F-3",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "0.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27250"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-20",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "19.20",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27249"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-19",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "18.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27248"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-18",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "17.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27247"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-17",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "16.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27246"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-16",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "15.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27245"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-15",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "14.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27244"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-14",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "13.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27243"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-13",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "12.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27242"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-12",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "11.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27241"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-11",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "10.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27240"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-10",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "9.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27239"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-9",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "8.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27238"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-8",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "7.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27237"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-7",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "6.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27236"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-6",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "5.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27235"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-5",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "4.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27234"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-4",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "3.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27233"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-3",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "2.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27232"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-2",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "1.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27231"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "3" } }
+      },
+      "attributes": {
+        "name": "T-1",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "0.00",
+        "x_position": "0.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27230"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "4" } }
+      },
+      "attributes": {
+        "name": "DF-27",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "16.70",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27278"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "4" } }
+      },
+      "attributes": {
+        "name": "DF-26",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "13.10",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27275"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "4" } }
+      },
+      "attributes": {
+        "name": "DF-23",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "7.10",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27270"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "4" } }
+      },
+      "attributes": {
+        "name": "DF-22",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "5.90",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27269"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "4" } }
+      },
+      "attributes": {
+        "name": "DF-21",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "3.00",
+        "x_position": "4.70",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27268"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "4" } }
+      },
+      "attributes": {
+        "name": "DF-29",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "18.00",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27265"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "4" } }
+      },
+      "attributes": {
+        "name": "DF-28",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "16.80",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27264"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "4" } }
+      },
+      "attributes": {
+        "name": "DF-25",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "9.60",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27258"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "region": { "data": { "type": "regions", "id": "9635" } },
+        "site": { "data": { "type": "sites", "id": "12009" } },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "spot_type": { "data": { "type": "spot_types", "id": "4" } }
+      },
+      "attributes": {
+        "name": "DF-24",
+        "weight": 0,
+        "enabled": true,
+        "y_position": "1.50",
+        "x_position": "8.40",
+        "listed": true,
+        "row_position": 0
+      },
+      "type": "spots",
+      "id": "27257"
+    }
+  ],
+  "meta": {
+    "pagination": { "count": 11, "per_page": 10, "pages": 2, "page": 1 }
+  },
+  "data": [
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "spot_holds": { "data": [] },
+        "class_session_type": {
+          "data": { "type": "class_session_types", "id": "3152" }
+        },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "employee_public_profiles": {
+          "data": [{ "type": "employee_public_profiles", "id": "3663" }]
+        },
+        "tags": { "data": [] },
+        "reservations": { "data": [] },
+        "instructors": { "data": [{ "type": "employees", "id": "1172" }] },
+        "substituted_instructors": { "data": [] },
+        "available_primary_spots": {
+          "data": [
+            { "type": "spots", "id": "27277" },
+            { "type": "spots", "id": "27276" },
+            { "type": "spots", "id": "27274" },
+            { "type": "spots", "id": "27273" },
+            { "type": "spots", "id": "27272" },
+            { "type": "spots", "id": "27271" },
+            { "type": "spots", "id": "27267" },
+            { "type": "spots", "id": "27266" },
+            { "type": "spots", "id": "27263" },
+            { "type": "spots", "id": "27262" },
+            { "type": "spots", "id": "27261" },
+            { "type": "spots", "id": "27260" },
+            { "type": "spots", "id": "27259" },
+            { "type": "spots", "id": "27256" },
+            { "type": "spots", "id": "27255" },
+            { "type": "spots", "id": "27254" },
+            { "type": "spots", "id": "27253" },
+            { "type": "spots", "id": "27252" },
+            { "type": "spots", "id": "27251" },
+            { "type": "spots", "id": "27250" },
+            { "type": "spots", "id": "27249" },
+            { "type": "spots", "id": "27248" },
+            { "type": "spots", "id": "27247" },
+            { "type": "spots", "id": "27246" },
+            { "type": "spots", "id": "27245" },
+            { "type": "spots", "id": "27244" },
+            { "type": "spots", "id": "27243" },
+            { "type": "spots", "id": "27242" },
+            { "type": "spots", "id": "27241" },
+            { "type": "spots", "id": "27240" },
+            { "type": "spots", "id": "27239" },
+            { "type": "spots", "id": "27238" },
+            { "type": "spots", "id": "27237" },
+            { "type": "spots", "id": "27236" },
+            { "type": "spots", "id": "27235" },
+            { "type": "spots", "id": "27234" },
+            { "type": "spots", "id": "27233" },
+            { "type": "spots", "id": "27232" },
+            { "type": "spots", "id": "27231" },
+            { "type": "spots", "id": "27230" }
+          ]
+        },
+        "class_session_notes": { "data": [] },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "available_secondary_spots": {
+          "data": [
+            { "type": "spots", "id": "27278" },
+            { "type": "spots", "id": "27275" },
+            { "type": "spots", "id": "27270" },
+            { "type": "spots", "id": "27269" },
+            { "type": "spots", "id": "27268" },
+            { "type": "spots", "id": "27265" },
+            { "type": "spots", "id": "27264" },
+            { "type": "spots", "id": "27258" },
+            { "type": "spots", "id": "27257" }
+          ]
+        },
+        "booking_windows": {
+          "data": [
+            { "type": "booking_windows", "id": "14080" },
+            { "type": "booking_windows", "id": "14081" }
+          ]
+        },
+        "cancelled_by_user": { "data": null }
+      },
+      "attributes": {
+        "start_datetime": "2018-06-02T01:30:00Z",
+        "capacity": 49,
+        "standard_reservation_user_count": 0,
+        "checked_in_user_count": 0,
+        "standby_availability": 0,
+        "start_time": "18:30:00",
+        "recurring_status": "in_sync",
+        "waitlist_reservation_user_count": 0,
+        "standby_capacity": 0,
+        "public": true,
+        "slot_price": [{ "count": 1, "slot_type": 684 }],
+        "in_booking_window": false,
+        "vip_user_count": 0,
+        "end_datetime": "2018-06-02T02:30:00Z",
+        "cancellation_datetime": null,
+        "archived_at": null,
+        "available_spots": [
+          27278,
+          27277,
+          27276,
+          27275,
+          27274,
+          27273,
+          27272,
+          27271,
+          27270,
+          27269,
+          27268,
+          27267,
+          27266,
+          27265,
+          27264,
+          27263,
+          27262,
+          27261,
+          27260,
+          27259,
+          27258,
+          27257,
+          27256,
+          27255,
+          27254,
+          27253,
+          27252,
+          27251,
+          27250,
+          27249,
+          27248,
+          27247,
+          27246,
+          27245,
+          27244,
+          27243,
+          27242,
+          27241,
+          27240,
+          27239,
+          27238,
+          27237,
+          27236,
+          27235,
+          27234,
+          27233,
+          27232,
+          27231,
+          27230
+        ],
+        "public_note": null,
+        "start_date": "2018-06-01",
+        "first_time_user_count": 0
+      },
+      "type": "class_sessions",
+      "id": "244437"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "spot_holds": { "data": [] },
+        "class_session_type": {
+          "data": { "type": "class_session_types", "id": "3152" }
+        },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "employee_public_profiles": {
+          "data": [{ "type": "employee_public_profiles", "id": "3717" }]
+        },
+        "tags": { "data": [] },
+        "reservations": { "data": [] },
+        "instructors": { "data": [{ "type": "employees", "id": "1212" }] },
+        "substituted_instructors": { "data": [] },
+        "available_primary_spots": {
+          "data": [
+            { "type": "spots", "id": "27277" },
+            { "type": "spots", "id": "27276" },
+            { "type": "spots", "id": "27274" },
+            { "type": "spots", "id": "27273" },
+            { "type": "spots", "id": "27272" },
+            { "type": "spots", "id": "27271" },
+            { "type": "spots", "id": "27267" },
+            { "type": "spots", "id": "27266" },
+            { "type": "spots", "id": "27263" },
+            { "type": "spots", "id": "27262" },
+            { "type": "spots", "id": "27261" },
+            { "type": "spots", "id": "27260" },
+            { "type": "spots", "id": "27259" },
+            { "type": "spots", "id": "27256" },
+            { "type": "spots", "id": "27255" },
+            { "type": "spots", "id": "27254" },
+            { "type": "spots", "id": "27253" },
+            { "type": "spots", "id": "27252" },
+            { "type": "spots", "id": "27251" },
+            { "type": "spots", "id": "27250" },
+            { "type": "spots", "id": "27249" },
+            { "type": "spots", "id": "27248" },
+            { "type": "spots", "id": "27247" },
+            { "type": "spots", "id": "27246" },
+            { "type": "spots", "id": "27245" },
+            { "type": "spots", "id": "27244" },
+            { "type": "spots", "id": "27243" },
+            { "type": "spots", "id": "27242" },
+            { "type": "spots", "id": "27241" },
+            { "type": "spots", "id": "27240" },
+            { "type": "spots", "id": "27239" },
+            { "type": "spots", "id": "27238" },
+            { "type": "spots", "id": "27237" },
+            { "type": "spots", "id": "27236" },
+            { "type": "spots", "id": "27235" },
+            { "type": "spots", "id": "27234" },
+            { "type": "spots", "id": "27233" },
+            { "type": "spots", "id": "27232" },
+            { "type": "spots", "id": "27231" },
+            { "type": "spots", "id": "27230" }
+          ]
+        },
+        "class_session_notes": { "data": [] },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "available_secondary_spots": {
+          "data": [
+            { "type": "spots", "id": "27278" },
+            { "type": "spots", "id": "27275" },
+            { "type": "spots", "id": "27270" },
+            { "type": "spots", "id": "27269" },
+            { "type": "spots", "id": "27268" },
+            { "type": "spots", "id": "27265" },
+            { "type": "spots", "id": "27264" },
+            { "type": "spots", "id": "27258" },
+            { "type": "spots", "id": "27257" }
+          ]
+        },
+        "booking_windows": {
+          "data": [
+            { "type": "booking_windows", "id": "14080" },
+            { "type": "booking_windows", "id": "14081" }
+          ]
+        },
+        "cancelled_by_user": { "data": null }
+      },
+      "attributes": {
+        "start_datetime": "2018-06-02T00:15:00Z",
+        "capacity": 49,
+        "standard_reservation_user_count": 0,
+        "checked_in_user_count": 0,
+        "standby_availability": 0,
+        "start_time": "17:15:00",
+        "recurring_status": "in_sync",
+        "waitlist_reservation_user_count": 0,
+        "standby_capacity": 0,
+        "public": true,
+        "slot_price": [{ "count": 1, "slot_type": 684 }],
+        "in_booking_window": false,
+        "vip_user_count": 0,
+        "end_datetime": "2018-06-02T01:15:00Z",
+        "cancellation_datetime": null,
+        "archived_at": null,
+        "available_spots": [
+          27278,
+          27277,
+          27276,
+          27275,
+          27274,
+          27273,
+          27272,
+          27271,
+          27270,
+          27269,
+          27268,
+          27267,
+          27266,
+          27265,
+          27264,
+          27263,
+          27262,
+          27261,
+          27260,
+          27259,
+          27258,
+          27257,
+          27256,
+          27255,
+          27254,
+          27253,
+          27252,
+          27251,
+          27250,
+          27249,
+          27248,
+          27247,
+          27246,
+          27245,
+          27244,
+          27243,
+          27242,
+          27241,
+          27240,
+          27239,
+          27238,
+          27237,
+          27236,
+          27235,
+          27234,
+          27233,
+          27232,
+          27231,
+          27230
+        ],
+        "public_note": null,
+        "start_date": "2018-06-01",
+        "first_time_user_count": 0
+      },
+      "type": "class_sessions",
+      "id": "244345"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "spot_holds": { "data": [] },
+        "class_session_type": {
+          "data": { "type": "class_session_types", "id": "3152" }
+        },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "employee_public_profiles": {
+          "data": [{ "type": "employee_public_profiles", "id": "3648" }]
+        },
+        "tags": { "data": [] },
+        "reservations": { "data": [] },
+        "instructors": { "data": [{ "type": "employees", "id": "1144" }] },
+        "substituted_instructors": { "data": [] },
+        "available_primary_spots": {
+          "data": [
+            { "type": "spots", "id": "27277" },
+            { "type": "spots", "id": "27276" },
+            { "type": "spots", "id": "27274" },
+            { "type": "spots", "id": "27273" },
+            { "type": "spots", "id": "27272" },
+            { "type": "spots", "id": "27271" },
+            { "type": "spots", "id": "27267" },
+            { "type": "spots", "id": "27266" },
+            { "type": "spots", "id": "27263" },
+            { "type": "spots", "id": "27262" },
+            { "type": "spots", "id": "27261" },
+            { "type": "spots", "id": "27260" },
+            { "type": "spots", "id": "27259" },
+            { "type": "spots", "id": "27256" },
+            { "type": "spots", "id": "27255" },
+            { "type": "spots", "id": "27254" },
+            { "type": "spots", "id": "27253" },
+            { "type": "spots", "id": "27252" },
+            { "type": "spots", "id": "27251" },
+            { "type": "spots", "id": "27250" },
+            { "type": "spots", "id": "27249" },
+            { "type": "spots", "id": "27248" },
+            { "type": "spots", "id": "27247" },
+            { "type": "spots", "id": "27246" },
+            { "type": "spots", "id": "27245" },
+            { "type": "spots", "id": "27244" },
+            { "type": "spots", "id": "27243" },
+            { "type": "spots", "id": "27242" },
+            { "type": "spots", "id": "27241" },
+            { "type": "spots", "id": "27240" },
+            { "type": "spots", "id": "27239" },
+            { "type": "spots", "id": "27238" },
+            { "type": "spots", "id": "27237" },
+            { "type": "spots", "id": "27236" },
+            { "type": "spots", "id": "27235" },
+            { "type": "spots", "id": "27234" },
+            { "type": "spots", "id": "27233" },
+            { "type": "spots", "id": "27232" },
+            { "type": "spots", "id": "27231" },
+            { "type": "spots", "id": "27230" }
+          ]
+        },
+        "class_session_notes": { "data": [] },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "available_secondary_spots": {
+          "data": [
+            { "type": "spots", "id": "27278" },
+            { "type": "spots", "id": "27275" },
+            { "type": "spots", "id": "27270" },
+            { "type": "spots", "id": "27269" },
+            { "type": "spots", "id": "27268" },
+            { "type": "spots", "id": "27265" },
+            { "type": "spots", "id": "27264" },
+            { "type": "spots", "id": "27258" },
+            { "type": "spots", "id": "27257" }
+          ]
+        },
+        "booking_windows": {
+          "data": [
+            { "type": "booking_windows", "id": "14080" },
+            { "type": "booking_windows", "id": "14081" }
+          ]
+        },
+        "cancelled_by_user": { "data": null }
+      },
+      "attributes": {
+        "start_datetime": "2018-06-01T22:45:00Z",
+        "capacity": 49,
+        "standard_reservation_user_count": 0,
+        "checked_in_user_count": 0,
+        "standby_availability": 0,
+        "start_time": "15:45:00",
+        "recurring_status": "in_sync",
+        "waitlist_reservation_user_count": 0,
+        "standby_capacity": 0,
+        "public": true,
+        "slot_price": [{ "count": 1, "slot_type": 684 }],
+        "in_booking_window": false,
+        "vip_user_count": 0,
+        "end_datetime": "2018-06-01T23:45:00Z",
+        "cancellation_datetime": null,
+        "archived_at": null,
+        "available_spots": [
+          27278,
+          27277,
+          27276,
+          27275,
+          27274,
+          27273,
+          27272,
+          27271,
+          27270,
+          27269,
+          27268,
+          27267,
+          27266,
+          27265,
+          27264,
+          27263,
+          27262,
+          27261,
+          27260,
+          27259,
+          27258,
+          27257,
+          27256,
+          27255,
+          27254,
+          27253,
+          27252,
+          27251,
+          27250,
+          27249,
+          27248,
+          27247,
+          27246,
+          27245,
+          27244,
+          27243,
+          27242,
+          27241,
+          27240,
+          27239,
+          27238,
+          27237,
+          27236,
+          27235,
+          27234,
+          27233,
+          27232,
+          27231,
+          27230
+        ],
+        "public_note": null,
+        "start_date": "2018-06-01",
+        "first_time_user_count": 0
+      },
+      "type": "class_sessions",
+      "id": "244438"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "spot_holds": { "data": [] },
+        "class_session_type": {
+          "data": { "type": "class_session_types", "id": "3152" }
+        },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "employee_public_profiles": {
+          "data": [{ "type": "employee_public_profiles", "id": "3677" }]
+        },
+        "tags": { "data": [] },
+        "reservations": { "data": [] },
+        "instructors": { "data": [{ "type": "employees", "id": "1175" }] },
+        "substituted_instructors": { "data": [] },
+        "available_primary_spots": {
+          "data": [
+            { "type": "spots", "id": "27277" },
+            { "type": "spots", "id": "27276" },
+            { "type": "spots", "id": "27274" },
+            { "type": "spots", "id": "27273" },
+            { "type": "spots", "id": "27272" },
+            { "type": "spots", "id": "27271" },
+            { "type": "spots", "id": "27267" },
+            { "type": "spots", "id": "27266" },
+            { "type": "spots", "id": "27263" },
+            { "type": "spots", "id": "27262" },
+            { "type": "spots", "id": "27261" },
+            { "type": "spots", "id": "27260" },
+            { "type": "spots", "id": "27259" },
+            { "type": "spots", "id": "27256" },
+            { "type": "spots", "id": "27255" },
+            { "type": "spots", "id": "27254" },
+            { "type": "spots", "id": "27253" },
+            { "type": "spots", "id": "27252" },
+            { "type": "spots", "id": "27251" },
+            { "type": "spots", "id": "27250" },
+            { "type": "spots", "id": "27249" },
+            { "type": "spots", "id": "27248" },
+            { "type": "spots", "id": "27247" },
+            { "type": "spots", "id": "27246" },
+            { "type": "spots", "id": "27245" },
+            { "type": "spots", "id": "27244" },
+            { "type": "spots", "id": "27243" },
+            { "type": "spots", "id": "27242" },
+            { "type": "spots", "id": "27241" },
+            { "type": "spots", "id": "27240" },
+            { "type": "spots", "id": "27239" },
+            { "type": "spots", "id": "27238" },
+            { "type": "spots", "id": "27237" },
+            { "type": "spots", "id": "27236" },
+            { "type": "spots", "id": "27235" },
+            { "type": "spots", "id": "27234" },
+            { "type": "spots", "id": "27233" },
+            { "type": "spots", "id": "27232" },
+            { "type": "spots", "id": "27231" },
+            { "type": "spots", "id": "27230" }
+          ]
+        },
+        "class_session_notes": { "data": [] },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "available_secondary_spots": {
+          "data": [
+            { "type": "spots", "id": "27278" },
+            { "type": "spots", "id": "27275" },
+            { "type": "spots", "id": "27270" },
+            { "type": "spots", "id": "27269" },
+            { "type": "spots", "id": "27268" },
+            { "type": "spots", "id": "27265" },
+            { "type": "spots", "id": "27264" },
+            { "type": "spots", "id": "27258" },
+            { "type": "spots", "id": "27257" }
+          ]
+        },
+        "booking_windows": {
+          "data": [
+            { "type": "booking_windows", "id": "14080" },
+            { "type": "booking_windows", "id": "14081" }
+          ]
+        },
+        "cancelled_by_user": { "data": null }
+      },
+      "attributes": {
+        "start_datetime": "2018-06-01T21:00:00Z",
+        "capacity": 49,
+        "standard_reservation_user_count": 0,
+        "checked_in_user_count": 0,
+        "standby_availability": 0,
+        "start_time": "14:00:00",
+        "recurring_status": "in_sync",
+        "waitlist_reservation_user_count": 0,
+        "standby_capacity": 0,
+        "public": true,
+        "slot_price": [{ "count": 1, "slot_type": 684 }],
+        "in_booking_window": false,
+        "vip_user_count": 0,
+        "end_datetime": "2018-06-01T22:00:00Z",
+        "cancellation_datetime": null,
+        "archived_at": null,
+        "available_spots": [
+          27278,
+          27277,
+          27276,
+          27275,
+          27274,
+          27273,
+          27272,
+          27271,
+          27270,
+          27269,
+          27268,
+          27267,
+          27266,
+          27265,
+          27264,
+          27263,
+          27262,
+          27261,
+          27260,
+          27259,
+          27258,
+          27257,
+          27256,
+          27255,
+          27254,
+          27253,
+          27252,
+          27251,
+          27250,
+          27249,
+          27248,
+          27247,
+          27246,
+          27245,
+          27244,
+          27243,
+          27242,
+          27241,
+          27240,
+          27239,
+          27238,
+          27237,
+          27236,
+          27235,
+          27234,
+          27233,
+          27232,
+          27231,
+          27230
+        ],
+        "public_note": null,
+        "start_date": "2018-06-01",
+        "first_time_user_count": 0
+      },
+      "type": "class_sessions",
+      "id": "244439"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "spot_holds": { "data": [] },
+        "class_session_type": {
+          "data": { "type": "class_session_types", "id": "3152" }
+        },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "employee_public_profiles": {
+          "data": [{ "type": "employee_public_profiles", "id": "2856" }]
+        },
+        "tags": { "data": [] },
+        "reservations": {
+          "data": [{ "type": "reservations", "id": "6126891" }]
+        },
+        "instructors": { "data": [{ "type": "employees", "id": "757" }] },
+        "substituted_instructors": { "data": [] },
+        "available_primary_spots": {
+          "data": [
+            { "type": "spots", "id": "27277" },
+            { "type": "spots", "id": "27276" },
+            { "type": "spots", "id": "27274" },
+            { "type": "spots", "id": "27273" },
+            { "type": "spots", "id": "27272" },
+            { "type": "spots", "id": "27271" },
+            { "type": "spots", "id": "27267" },
+            { "type": "spots", "id": "27266" },
+            { "type": "spots", "id": "27263" },
+            { "type": "spots", "id": "27262" },
+            { "type": "spots", "id": "27261" },
+            { "type": "spots", "id": "27260" },
+            { "type": "spots", "id": "27259" },
+            { "type": "spots", "id": "27256" },
+            { "type": "spots", "id": "27255" },
+            { "type": "spots", "id": "27254" },
+            { "type": "spots", "id": "27253" },
+            { "type": "spots", "id": "27252" },
+            { "type": "spots", "id": "27251" },
+            { "type": "spots", "id": "27250" },
+            { "type": "spots", "id": "27249" },
+            { "type": "spots", "id": "27248" },
+            { "type": "spots", "id": "27247" },
+            { "type": "spots", "id": "27246" },
+            { "type": "spots", "id": "27245" },
+            { "type": "spots", "id": "27243" },
+            { "type": "spots", "id": "27242" },
+            { "type": "spots", "id": "27241" },
+            { "type": "spots", "id": "27240" },
+            { "type": "spots", "id": "27239" },
+            { "type": "spots", "id": "27238" },
+            { "type": "spots", "id": "27237" },
+            { "type": "spots", "id": "27236" },
+            { "type": "spots", "id": "27235" },
+            { "type": "spots", "id": "27234" },
+            { "type": "spots", "id": "27233" },
+            { "type": "spots", "id": "27232" },
+            { "type": "spots", "id": "27231" },
+            { "type": "spots", "id": "27230" }
+          ]
+        },
+        "class_session_notes": { "data": [] },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "available_secondary_spots": {
+          "data": [
+            { "type": "spots", "id": "27278" },
+            { "type": "spots", "id": "27275" },
+            { "type": "spots", "id": "27270" },
+            { "type": "spots", "id": "27269" },
+            { "type": "spots", "id": "27268" },
+            { "type": "spots", "id": "27265" },
+            { "type": "spots", "id": "27264" },
+            { "type": "spots", "id": "27258" },
+            { "type": "spots", "id": "27257" }
+          ]
+        },
+        "booking_windows": {
+          "data": [
+            { "type": "booking_windows", "id": "14080" },
+            { "type": "booking_windows", "id": "14081" }
+          ]
+        },
+        "cancelled_by_user": { "data": null }
+      },
+      "attributes": {
+        "start_datetime": "2018-06-01T19:30:00Z",
+        "capacity": 49,
+        "standard_reservation_user_count": 1,
+        "checked_in_user_count": 0,
+        "standby_availability": 0,
+        "start_time": "12:30:00",
+        "recurring_status": "in_sync",
+        "waitlist_reservation_user_count": 0,
+        "standby_capacity": 0,
+        "public": true,
+        "slot_price": [{ "count": 1, "slot_type": 684 }],
+        "in_booking_window": false,
+        "vip_user_count": 0,
+        "end_datetime": "2018-06-01T20:30:00Z",
+        "cancellation_datetime": null,
+        "archived_at": null,
+        "available_spots": [
+          27278,
+          27277,
+          27276,
+          27275,
+          27274,
+          27273,
+          27272,
+          27271,
+          27270,
+          27269,
+          27268,
+          27267,
+          27266,
+          27265,
+          27264,
+          27263,
+          27262,
+          27261,
+          27260,
+          27259,
+          27258,
+          27257,
+          27256,
+          27255,
+          27254,
+          27253,
+          27252,
+          27251,
+          27250,
+          27249,
+          27248,
+          27247,
+          27246,
+          27245,
+          27243,
+          27242,
+          27241,
+          27240,
+          27239,
+          27238,
+          27237,
+          27236,
+          27235,
+          27234,
+          27233,
+          27232,
+          27231,
+          27230
+        ],
+        "public_note": null,
+        "start_date": "2018-06-01",
+        "first_time_user_count": 0
+      },
+      "type": "class_sessions",
+      "id": "244440"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "spot_holds": { "data": [] },
+        "class_session_type": {
+          "data": { "type": "class_session_types", "id": "3152" }
+        },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "employee_public_profiles": {
+          "data": [{ "type": "employee_public_profiles", "id": "3639" }]
+        },
+        "tags": { "data": [] },
+        "reservations": { "data": [] },
+        "instructors": { "data": [{ "type": "employees", "id": "1133" }] },
+        "substituted_instructors": { "data": [] },
+        "available_primary_spots": {
+          "data": [
+            { "type": "spots", "id": "27277" },
+            { "type": "spots", "id": "27276" },
+            { "type": "spots", "id": "27274" },
+            { "type": "spots", "id": "27273" },
+            { "type": "spots", "id": "27272" },
+            { "type": "spots", "id": "27271" },
+            { "type": "spots", "id": "27267" },
+            { "type": "spots", "id": "27266" },
+            { "type": "spots", "id": "27263" },
+            { "type": "spots", "id": "27262" },
+            { "type": "spots", "id": "27261" },
+            { "type": "spots", "id": "27260" },
+            { "type": "spots", "id": "27259" },
+            { "type": "spots", "id": "27256" },
+            { "type": "spots", "id": "27255" },
+            { "type": "spots", "id": "27254" },
+            { "type": "spots", "id": "27253" },
+            { "type": "spots", "id": "27252" },
+            { "type": "spots", "id": "27251" },
+            { "type": "spots", "id": "27250" },
+            { "type": "spots", "id": "27249" },
+            { "type": "spots", "id": "27248" },
+            { "type": "spots", "id": "27247" },
+            { "type": "spots", "id": "27246" },
+            { "type": "spots", "id": "27245" },
+            { "type": "spots", "id": "27244" },
+            { "type": "spots", "id": "27243" },
+            { "type": "spots", "id": "27242" },
+            { "type": "spots", "id": "27241" },
+            { "type": "spots", "id": "27240" },
+            { "type": "spots", "id": "27239" },
+            { "type": "spots", "id": "27238" },
+            { "type": "spots", "id": "27237" },
+            { "type": "spots", "id": "27236" },
+            { "type": "spots", "id": "27235" },
+            { "type": "spots", "id": "27234" },
+            { "type": "spots", "id": "27233" },
+            { "type": "spots", "id": "27232" },
+            { "type": "spots", "id": "27231" },
+            { "type": "spots", "id": "27230" }
+          ]
+        },
+        "class_session_notes": { "data": [] },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "available_secondary_spots": {
+          "data": [
+            { "type": "spots", "id": "27278" },
+            { "type": "spots", "id": "27275" },
+            { "type": "spots", "id": "27270" },
+            { "type": "spots", "id": "27269" },
+            { "type": "spots", "id": "27268" },
+            { "type": "spots", "id": "27265" },
+            { "type": "spots", "id": "27264" },
+            { "type": "spots", "id": "27258" },
+            { "type": "spots", "id": "27257" }
+          ]
+        },
+        "booking_windows": {
+          "data": [
+            { "type": "booking_windows", "id": "14080" },
+            { "type": "booking_windows", "id": "14081" }
+          ]
+        },
+        "cancelled_by_user": { "data": null }
+      },
+      "attributes": {
+        "start_datetime": "2018-06-01T18:00:00Z",
+        "capacity": 49,
+        "standard_reservation_user_count": 0,
+        "checked_in_user_count": 0,
+        "standby_availability": 0,
+        "start_time": "11:00:00",
+        "recurring_status": "in_sync",
+        "waitlist_reservation_user_count": 0,
+        "standby_capacity": 0,
+        "public": true,
+        "slot_price": [{ "count": 1, "slot_type": 684 }],
+        "in_booking_window": false,
+        "vip_user_count": 0,
+        "end_datetime": "2018-06-01T19:00:00Z",
+        "cancellation_datetime": null,
+        "archived_at": null,
+        "available_spots": [
+          27278,
+          27277,
+          27276,
+          27275,
+          27274,
+          27273,
+          27272,
+          27271,
+          27270,
+          27269,
+          27268,
+          27267,
+          27266,
+          27265,
+          27264,
+          27263,
+          27262,
+          27261,
+          27260,
+          27259,
+          27258,
+          27257,
+          27256,
+          27255,
+          27254,
+          27253,
+          27252,
+          27251,
+          27250,
+          27249,
+          27248,
+          27247,
+          27246,
+          27245,
+          27244,
+          27243,
+          27242,
+          27241,
+          27240,
+          27239,
+          27238,
+          27237,
+          27236,
+          27235,
+          27234,
+          27233,
+          27232,
+          27231,
+          27230
+        ],
+        "public_note": null,
+        "start_date": "2018-06-01",
+        "first_time_user_count": 0
+      },
+      "type": "class_sessions",
+      "id": "244441"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "spot_holds": { "data": [] },
+        "class_session_type": {
+          "data": { "type": "class_session_types", "id": "3152" }
+        },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "employee_public_profiles": {
+          "data": [{ "type": "employee_public_profiles", "id": "2856" }]
+        },
+        "tags": { "data": [] },
+        "reservations": {
+          "data": [{ "type": "reservations", "id": "6127789" }]
+        },
+        "instructors": { "data": [{ "type": "employees", "id": "757" }] },
+        "substituted_instructors": { "data": [] },
+        "available_primary_spots": {
+          "data": [
+            { "type": "spots", "id": "27277" },
+            { "type": "spots", "id": "27276" },
+            { "type": "spots", "id": "27274" },
+            { "type": "spots", "id": "27273" },
+            { "type": "spots", "id": "27272" },
+            { "type": "spots", "id": "27271" },
+            { "type": "spots", "id": "27267" },
+            { "type": "spots", "id": "27266" },
+            { "type": "spots", "id": "27263" },
+            { "type": "spots", "id": "27262" },
+            { "type": "spots", "id": "27261" },
+            { "type": "spots", "id": "27260" },
+            { "type": "spots", "id": "27259" },
+            { "type": "spots", "id": "27256" },
+            { "type": "spots", "id": "27255" },
+            { "type": "spots", "id": "27254" },
+            { "type": "spots", "id": "27253" },
+            { "type": "spots", "id": "27252" },
+            { "type": "spots", "id": "27251" },
+            { "type": "spots", "id": "27250" },
+            { "type": "spots", "id": "27249" },
+            { "type": "spots", "id": "27248" },
+            { "type": "spots", "id": "27247" },
+            { "type": "spots", "id": "27246" },
+            { "type": "spots", "id": "27245" },
+            { "type": "spots", "id": "27244" },
+            { "type": "spots", "id": "27243" },
+            { "type": "spots", "id": "27242" },
+            { "type": "spots", "id": "27241" },
+            { "type": "spots", "id": "27240" },
+            { "type": "spots", "id": "27239" },
+            { "type": "spots", "id": "27238" },
+            { "type": "spots", "id": "27237" },
+            { "type": "spots", "id": "27236" },
+            { "type": "spots", "id": "27235" },
+            { "type": "spots", "id": "27234" },
+            { "type": "spots", "id": "27233" },
+            { "type": "spots", "id": "27232" },
+            { "type": "spots", "id": "27231" },
+            { "type": "spots", "id": "27230" }
+          ]
+        },
+        "class_session_notes": { "data": [] },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "available_secondary_spots": {
+          "data": [
+            { "type": "spots", "id": "27278" },
+            { "type": "spots", "id": "27270" },
+            { "type": "spots", "id": "27269" },
+            { "type": "spots", "id": "27268" },
+            { "type": "spots", "id": "27265" },
+            { "type": "spots", "id": "27264" },
+            { "type": "spots", "id": "27258" },
+            { "type": "spots", "id": "27257" }
+          ]
+        },
+        "booking_windows": {
+          "data": [
+            { "type": "booking_windows", "id": "14080" },
+            { "type": "booking_windows", "id": "14081" }
+          ]
+        },
+        "cancelled_by_user": { "data": null }
+      },
+      "attributes": {
+        "start_datetime": "2018-06-01T16:40:00Z",
+        "capacity": 49,
+        "standard_reservation_user_count": 1,
+        "checked_in_user_count": 0,
+        "standby_availability": 0,
+        "start_time": "09:40:00",
+        "recurring_status": "in_sync",
+        "waitlist_reservation_user_count": 0,
+        "standby_capacity": 0,
+        "public": true,
+        "slot_price": [{ "count": 1, "slot_type": 684 }],
+        "in_booking_window": false,
+        "vip_user_count": 0,
+        "end_datetime": "2018-06-01T17:40:00Z",
+        "cancellation_datetime": null,
+        "archived_at": null,
+        "available_spots": [
+          27278,
+          27277,
+          27276,
+          27274,
+          27273,
+          27272,
+          27271,
+          27270,
+          27269,
+          27268,
+          27267,
+          27266,
+          27265,
+          27264,
+          27263,
+          27262,
+          27261,
+          27260,
+          27259,
+          27258,
+          27257,
+          27256,
+          27255,
+          27254,
+          27253,
+          27252,
+          27251,
+          27250,
+          27249,
+          27248,
+          27247,
+          27246,
+          27245,
+          27244,
+          27243,
+          27242,
+          27241,
+          27240,
+          27239,
+          27238,
+          27237,
+          27236,
+          27235,
+          27234,
+          27233,
+          27232,
+          27231,
+          27230
+        ],
+        "public_note": null,
+        "start_date": "2018-06-01",
+        "first_time_user_count": 0
+      },
+      "type": "class_sessions",
+      "id": "244442"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "spot_holds": { "data": [] },
+        "class_session_type": {
+          "data": { "type": "class_session_types", "id": "3152" }
+        },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "employee_public_profiles": {
+          "data": [{ "type": "employee_public_profiles", "id": "3677" }]
+        },
+        "tags": { "data": [] },
+        "reservations": {
+          "data": [
+            { "type": "reservations", "id": "6126518" },
+            { "type": "reservations", "id": "6124750" }
+          ]
+        },
+        "instructors": { "data": [{ "type": "employees", "id": "1175" }] },
+        "substituted_instructors": { "data": [] },
+        "available_primary_spots": {
+          "data": [
+            { "type": "spots", "id": "27277" },
+            { "type": "spots", "id": "27276" },
+            { "type": "spots", "id": "27274" },
+            { "type": "spots", "id": "27273" },
+            { "type": "spots", "id": "27272" },
+            { "type": "spots", "id": "27271" },
+            { "type": "spots", "id": "27267" },
+            { "type": "spots", "id": "27266" },
+            { "type": "spots", "id": "27263" },
+            { "type": "spots", "id": "27262" },
+            { "type": "spots", "id": "27260" },
+            { "type": "spots", "id": "27259" },
+            { "type": "spots", "id": "27256" },
+            { "type": "spots", "id": "27255" },
+            { "type": "spots", "id": "27254" },
+            { "type": "spots", "id": "27253" },
+            { "type": "spots", "id": "27252" },
+            { "type": "spots", "id": "27251" },
+            { "type": "spots", "id": "27250" },
+            { "type": "spots", "id": "27248" },
+            { "type": "spots", "id": "27247" },
+            { "type": "spots", "id": "27246" },
+            { "type": "spots", "id": "27245" },
+            { "type": "spots", "id": "27244" },
+            { "type": "spots", "id": "27243" },
+            { "type": "spots", "id": "27242" },
+            { "type": "spots", "id": "27241" },
+            { "type": "spots", "id": "27240" },
+            { "type": "spots", "id": "27239" },
+            { "type": "spots", "id": "27238" },
+            { "type": "spots", "id": "27237" },
+            { "type": "spots", "id": "27236" },
+            { "type": "spots", "id": "27235" },
+            { "type": "spots", "id": "27234" },
+            { "type": "spots", "id": "27233" },
+            { "type": "spots", "id": "27232" },
+            { "type": "spots", "id": "27231" },
+            { "type": "spots", "id": "27230" }
+          ]
+        },
+        "class_session_notes": { "data": [] },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "available_secondary_spots": {
+          "data": [
+            { "type": "spots", "id": "27278" },
+            { "type": "spots", "id": "27275" },
+            { "type": "spots", "id": "27270" },
+            { "type": "spots", "id": "27269" },
+            { "type": "spots", "id": "27268" },
+            { "type": "spots", "id": "27265" },
+            { "type": "spots", "id": "27264" },
+            { "type": "spots", "id": "27258" },
+            { "type": "spots", "id": "27257" }
+          ]
+        },
+        "booking_windows": {
+          "data": [
+            { "type": "booking_windows", "id": "14080" },
+            { "type": "booking_windows", "id": "14081" }
+          ]
+        },
+        "cancelled_by_user": { "data": null }
+      },
+      "attributes": {
+        "start_datetime": "2018-06-01T15:30:00Z",
+        "capacity": 49,
+        "standard_reservation_user_count": 2,
+        "checked_in_user_count": 0,
+        "standby_availability": 0,
+        "start_time": "08:30:00",
+        "recurring_status": "in_sync",
+        "waitlist_reservation_user_count": 0,
+        "standby_capacity": 0,
+        "public": true,
+        "slot_price": [{ "count": 1, "slot_type": 684 }],
+        "in_booking_window": false,
+        "vip_user_count": 0,
+        "end_datetime": "2018-06-01T16:30:00Z",
+        "cancellation_datetime": null,
+        "archived_at": null,
+        "available_spots": [
+          27278,
+          27277,
+          27276,
+          27275,
+          27274,
+          27273,
+          27272,
+          27271,
+          27270,
+          27269,
+          27268,
+          27267,
+          27266,
+          27265,
+          27264,
+          27263,
+          27262,
+          27260,
+          27259,
+          27258,
+          27257,
+          27256,
+          27255,
+          27254,
+          27253,
+          27252,
+          27251,
+          27250,
+          27248,
+          27247,
+          27246,
+          27245,
+          27244,
+          27243,
+          27242,
+          27241,
+          27240,
+          27239,
+          27238,
+          27237,
+          27236,
+          27235,
+          27234,
+          27233,
+          27232,
+          27231,
+          27230
+        ],
+        "public_note": null,
+        "start_date": "2018-06-01",
+        "first_time_user_count": 0
+      },
+      "type": "class_sessions",
+      "id": "244346"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "spot_holds": { "data": [] },
+        "class_session_type": {
+          "data": { "type": "class_session_types", "id": "3152" }
+        },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "employee_public_profiles": {
+          "data": [{ "type": "employee_public_profiles", "id": "3721" }]
+        },
+        "tags": { "data": [] },
+        "reservations": {
+          "data": [
+            { "type": "reservations", "id": "6125119" },
+            { "type": "reservations", "id": "6127556" },
+            { "type": "reservations", "id": "6127150" },
+            { "type": "reservations", "id": "6122665" },
+            { "type": "reservations", "id": "6124751" },
+            { "type": "reservations", "id": "6120589" },
+            { "type": "reservations", "id": "6124131" }
+          ]
+        },
+        "instructors": { "data": [{ "type": "employees", "id": "1219" }] },
+        "substituted_instructors": { "data": [] },
+        "available_primary_spots": {
+          "data": [
+            { "type": "spots", "id": "27276" },
+            { "type": "spots", "id": "27274" },
+            { "type": "spots", "id": "27273" },
+            { "type": "spots", "id": "27272" },
+            { "type": "spots", "id": "27271" },
+            { "type": "spots", "id": "27267" },
+            { "type": "spots", "id": "27266" },
+            { "type": "spots", "id": "27262" },
+            { "type": "spots", "id": "27261" },
+            { "type": "spots", "id": "27260" },
+            { "type": "spots", "id": "27259" },
+            { "type": "spots", "id": "27256" },
+            { "type": "spots", "id": "27255" },
+            { "type": "spots", "id": "27254" },
+            { "type": "spots", "id": "27253" },
+            { "type": "spots", "id": "27252" },
+            { "type": "spots", "id": "27251" },
+            { "type": "spots", "id": "27250" },
+            { "type": "spots", "id": "27249" },
+            { "type": "spots", "id": "27247" },
+            { "type": "spots", "id": "27246" },
+            { "type": "spots", "id": "27245" },
+            { "type": "spots", "id": "27244" },
+            { "type": "spots", "id": "27242" },
+            { "type": "spots", "id": "27241" },
+            { "type": "spots", "id": "27240" },
+            { "type": "spots", "id": "27239" },
+            { "type": "spots", "id": "27238" },
+            { "type": "spots", "id": "27237" },
+            { "type": "spots", "id": "27235" },
+            { "type": "spots", "id": "27234" },
+            { "type": "spots", "id": "27233" },
+            { "type": "spots", "id": "27232" },
+            { "type": "spots", "id": "27231" },
+            { "type": "spots", "id": "27230" }
+          ]
+        },
+        "class_session_notes": { "data": [] },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "available_secondary_spots": {
+          "data": [
+            { "type": "spots", "id": "27278" },
+            { "type": "spots", "id": "27270" },
+            { "type": "spots", "id": "27269" },
+            { "type": "spots", "id": "27268" },
+            { "type": "spots", "id": "27265" },
+            { "type": "spots", "id": "27264" },
+            { "type": "spots", "id": "27257" }
+          ]
+        },
+        "booking_windows": {
+          "data": [
+            { "type": "booking_windows", "id": "14080" },
+            { "type": "booking_windows", "id": "14081" }
+          ]
+        },
+        "cancelled_by_user": { "data": null }
+      },
+      "attributes": {
+        "start_datetime": "2018-06-01T14:20:00Z",
+        "capacity": 49,
+        "standard_reservation_user_count": 7,
+        "checked_in_user_count": 0,
+        "standby_availability": 0,
+        "start_time": "07:20:00",
+        "recurring_status": "in_sync",
+        "waitlist_reservation_user_count": 0,
+        "standby_capacity": 0,
+        "public": true,
+        "slot_price": [{ "count": 1, "slot_type": 684 }],
+        "in_booking_window": false,
+        "vip_user_count": 0,
+        "end_datetime": "2018-06-01T15:20:00Z",
+        "cancellation_datetime": null,
+        "archived_at": null,
+        "available_spots": [
+          27278,
+          27276,
+          27274,
+          27273,
+          27272,
+          27271,
+          27270,
+          27269,
+          27268,
+          27267,
+          27266,
+          27265,
+          27264,
+          27262,
+          27261,
+          27260,
+          27259,
+          27257,
+          27256,
+          27255,
+          27254,
+          27253,
+          27252,
+          27251,
+          27250,
+          27249,
+          27247,
+          27246,
+          27245,
+          27244,
+          27242,
+          27241,
+          27240,
+          27239,
+          27238,
+          27237,
+          27235,
+          27234,
+          27233,
+          27232,
+          27231,
+          27230
+        ],
+        "public_note": null,
+        "start_date": "2018-06-01",
+        "first_time_user_count": 0
+      },
+      "type": "class_sessions",
+      "id": "244443"
+    },
+    {
+      "relationships": {
+        "classroom": { "data": { "type": "classrooms", "id": "3355" } },
+        "spot_holds": { "data": [] },
+        "class_session_type": {
+          "data": { "type": "class_session_types", "id": "3152" }
+        },
+        "layout": { "data": { "type": "layouts", "id": "3330" } },
+        "employee_public_profiles": {
+          "data": [{ "type": "employee_public_profiles", "id": "3721" }]
+        },
+        "tags": { "data": [] },
+        "reservations": {
+          "data": [
+            { "type": "reservations", "id": "6120567" },
+            { "type": "reservations", "id": "6120577" },
+            { "type": "reservations", "id": "6120559" },
+            { "type": "reservations", "id": "6091339" },
+            { "type": "reservations", "id": "6120570" },
+            { "type": "reservations", "id": "6120578" },
+            { "type": "reservations", "id": "6124476" },
+            { "type": "reservations", "id": "6120565" },
+            { "type": "reservations", "id": "6120562" },
+            { "type": "reservations", "id": "6120582" },
+            { "type": "reservations", "id": "6124183" },
+            { "type": "reservations", "id": "6120587" },
+            { "type": "reservations", "id": "6091342" },
+            { "type": "reservations", "id": "6127475" }
+          ]
+        },
+        "instructors": { "data": [{ "type": "employees", "id": "1219" }] },
+        "substituted_instructors": { "data": [] },
+        "available_primary_spots": {
+          "data": [
+            { "type": "spots", "id": "27277" },
+            { "type": "spots", "id": "27276" },
+            { "type": "spots", "id": "27274" },
+            { "type": "spots", "id": "27273" },
+            { "type": "spots", "id": "27272" },
+            { "type": "spots", "id": "27271" },
+            { "type": "spots", "id": "27267" },
+            { "type": "spots", "id": "27266" },
+            { "type": "spots", "id": "27263" },
+            { "type": "spots", "id": "27262" },
+            { "type": "spots", "id": "27261" },
+            { "type": "spots", "id": "27260" },
+            { "type": "spots", "id": "27259" },
+            { "type": "spots", "id": "27256" },
+            { "type": "spots", "id": "27255" },
+            { "type": "spots", "id": "27253" },
+            { "type": "spots", "id": "27252" },
+            { "type": "spots", "id": "27251" },
+            { "type": "spots", "id": "27250" },
+            { "type": "spots", "id": "27249" },
+            { "type": "spots", "id": "27245" },
+            { "type": "spots", "id": "27244" },
+            { "type": "spots", "id": "27243" },
+            { "type": "spots", "id": "27241" },
+            { "type": "spots", "id": "27240" },
+            { "type": "spots", "id": "27239" },
+            { "type": "spots", "id": "27237" },
+            { "type": "spots", "id": "27236" },
+            { "type": "spots", "id": "27234" },
+            { "type": "spots", "id": "27232" },
+            { "type": "spots", "id": "27231" },
+            { "type": "spots", "id": "27230" }
+          ]
+        },
+        "class_session_notes": { "data": [] },
+        "location": { "data": { "type": "locations", "id": "9595" } },
+        "available_secondary_spots": {
+          "data": [
+            { "type": "spots", "id": "27278" },
+            { "type": "spots", "id": "27265" },
+            { "type": "spots", "id": "27264" }
+          ]
+        },
+        "booking_windows": {
+          "data": [
+            { "type": "booking_windows", "id": "14080" },
+            { "type": "booking_windows", "id": "14081" }
+          ]
+        },
+        "cancelled_by_user": { "data": null }
+      },
+      "attributes": {
+        "start_datetime": "2018-06-01T13:10:00Z",
+        "capacity": 49,
+        "standard_reservation_user_count": 14,
+        "checked_in_user_count": 0,
+        "standby_availability": 0,
+        "start_time": "06:10:00",
+        "recurring_status": "in_sync",
+        "waitlist_reservation_user_count": 0,
+        "standby_capacity": 0,
+        "public": true,
+        "slot_price": [{ "count": 1, "slot_type": 684 }],
+        "in_booking_window": false,
+        "vip_user_count": 0,
+        "end_datetime": "2018-06-01T14:10:00Z",
+        "cancellation_datetime": null,
+        "archived_at": null,
+        "available_spots": [
+          27278,
+          27277,
+          27276,
+          27274,
+          27273,
+          27272,
+          27271,
+          27267,
+          27266,
+          27265,
+          27264,
+          27263,
+          27262,
+          27261,
+          27260,
+          27259,
+          27256,
+          27255,
+          27253,
+          27252,
+          27251,
+          27250,
+          27249,
+          27245,
+          27244,
+          27243,
+          27241,
+          27240,
+          27239,
+          27237,
+          27236,
+          27234,
+          27232,
+          27231,
+          27230
+        ],
+        "public_note": null,
+        "start_date": "2018-06-01",
+        "first_time_user_count": 0
+      },
+      "type": "class_sessions",
+      "id": "244444"
+    }
+  ],
+  "links": null
+}
