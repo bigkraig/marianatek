@@ -9,7 +9,10 @@
         "count": 1,
         "payment_option_id": 11111,
         "payment_option_type": "membership",
-        "payment_description": "XXX"
+        "payment_description": "XXX",
+        "is_active": true,
+        "error_message": null,
+        "error_type": null
       },
       "relationships": {
         "payment_option": {
@@ -29,7 +32,10 @@
         "count": 36,
         "payment_option_id": 11111,
         "payment_option_type": "credit",
-        "payment_description": "XXX"
+        "payment_description": "XXX",
+        "is_active": false,
+        "error_message": "This payment option is in payment failure. Please update your credit card or contact the studio.",
+        "error_type": "payment_failure"
       },
       "relationships": {
         "payment_option": {

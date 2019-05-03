@@ -14,6 +14,9 @@ type PaymentOptionAttributes struct {
 	PaymentOptionID    int64       `json:"payment_option_id"`
 	PaymentOptionType  string      `json:"payment_option_type"`
 	PaymentDescription string      `json:"payment_description"`
+	IsActive           bool        `json:"is_active"`
+	ErrorMessage       string      `json:"error_message"`
+	ErrorType          string      `json:"error_type"`
 }
 
 type PaymentOptionRelationships struct {
