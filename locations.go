@@ -66,3 +66,34 @@ func (s *LocationsService) List(ctx context.Context) ([]*Location, *Includes, er
 
 	return locations, resp.Includes, nil
 }
+
+// CustomerLocation represents a location from the customer API
+type CustomerLocation struct {
+	ID             string `json:"id"`
+	Name           string `json:"name"`
+	Timezone       string `json:"timezone"`
+	AddressLineOne string `json:"address_line_one"`
+	City           string `json:"city"`
+	Region         struct {
+		ID   string `json:"id"`
+		Name string `json:"name"`
+	} `json:"region"`
+}
+
+// ListAll fetches all locations from the customer API
+func (s *LocationsService) ListAll(ctx context.Context) ([]*CustomerLocation, error) {
+	u := "customer/locations"
+
+	req, err := s.client.NewRequest("GET", u, nil)
+	if err != nil {
+		return nil, err
+	}
+
+	var locations []*CustomerLocation
+	_, err = s.client.Do(ctx, req, &locations)
+	if err != nil {
+		return nil, err
+	}
+
+	return locations, nil
+}
