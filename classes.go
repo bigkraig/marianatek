@@ -224,6 +224,24 @@ type ClassSpotsResponse struct {
 	Results  []*ClassSpot `json:"results"`
 }
 
+// CustomerClassResponse represents the response from the customer class endpoint
+type CustomerClassResponse struct {
+	Layout struct {
+		Spots []struct {
+			ID       string `json:"id"`
+			Name     string `json:"name"`
+			SpotType struct {
+				ID        string `json:"id"`
+				Name      string `json:"name"`
+				IsPrimary bool   `json:"is_primary"`
+			} `json:"spot_type"`
+			IsAvailable bool    `json:"is_available"`
+			XPosition   float64 `json:"x_position"`
+			YPosition   float64 `json:"y_position"`
+		} `json:"spots"`
+	} `json:"layout"`
+}
+
 // GetSpots retrieves available spots for a class
 func (s *ClassesService) GetSpots(ctx context.Context, classID string) ([]*ClassSpot, error) {
 	u := fmt.Sprintf("customer/v1/classes/%s", classID)
@@ -248,10 +266,22 @@ func (s *ClassesService) GetSpots(ctx context.Context, classID string) ([]*Class
 		return nil, err
 	}
 
-	var spotsResp ClassSpotsResponse
-	if err := json.Unmarshal(body, &spotsResp); err != nil {
+	var customerResp CustomerClassResponse
+	if err := json.Unmarshal(body, &customerResp); err != nil {
 		return nil, err
 	}
 
-	return spotsResp.Results, nil
+	var spots []*ClassSpot
+	for _, spot := range customerResp.Layout.Spots {
+		// Only include available spots
+		if spot.IsAvailable {
+			spots = append(spots, &ClassSpot{
+				ID:       spot.ID,
+				Name:     spot.Name,
+				SpotType: spot.SpotType.Name,
+			})
+		}
+	}
+
+	return spots, nil
 }
