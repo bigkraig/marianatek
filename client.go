@@ -6,7 +6,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
-	"io/ioutil"
 	"log"
 	"net/http"
 	"net/url"
@@ -32,6 +31,7 @@ type Client struct {
 	client *http.Client
 	common service
 
+	Classes        *ClassesService
 	ClassSessions  *ClassSessionsService
 	Locations      *LocationsService
 	PaymentOptions *PaymentOptionsService
@@ -52,6 +52,7 @@ func NewClient(httpClient *http.Client) *Client {
 	c := &Client{client: httpClient, BaseURL: baseURL, UserAgent: userAgent}
 	c.common.client = c
 
+	c.Classes = (*ClassesService)(&c.common)
 	c.ClassSessions = (*ClassSessionsService)(&c.common)
 	c.Locations = (*LocationsService)(&c.common)
 	c.PaymentOptions = (*PaymentOptionsService)(&c.common)
@@ -143,7 +144,7 @@ func CheckResponse(r *http.Response) error {
 	}
 
 	errorResponse := &ErrorResponse{Response: r}
-	data, err := ioutil.ReadAll(r.Body)
+	data, err := io.ReadAll(r.Body)
 	if err == nil && data != nil {
 		json.Unmarshal(data, errorResponse)
 	}
