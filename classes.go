@@ -226,7 +226,7 @@ type ClassSpotsResponse struct {
 
 // GetSpots retrieves available spots for a class
 func (s *ClassesService) GetSpots(ctx context.Context, classID string) ([]*ClassSpot, error) {
-	u := fmt.Sprintf("customer/v1/classes/%s/spots", classID)
+	u := fmt.Sprintf("customer/v1/classes/%s", classID)
 
 	req, err := s.client.NewRequest("GET", u, nil)
 	if err != nil {
