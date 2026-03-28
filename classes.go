@@ -209,11 +209,14 @@ func (s *ClassesService) Get(ctx context.Context, classID string) (*Class, *Incl
 	return &class, nil, nil
 }
 
-// ClassSpot represents an available spot for a class
+// ClassSpot represents a spot for a class
 type ClassSpot struct {
-	ID       string `json:"id"`
-	Name     string `json:"name"`
-	SpotType string `json:"spot_type"`
+	ID          string  `json:"id"`
+	Name        string  `json:"name"`
+	SpotType    string  `json:"spot_type"`
+	IsAvailable bool    `json:"is_available"`
+	XPosition   float64 `json:"x_position"`
+	YPosition   float64 `json:"y_position"`
 }
 
 // ClassSpotsResponse represents the response from the spots endpoint
@@ -273,14 +276,14 @@ func (s *ClassesService) GetSpots(ctx context.Context, classID string) ([]*Class
 
 	var spots []*ClassSpot
 	for _, spot := range customerResp.Layout.Spots {
-		// Only include available spots
-		if spot.IsAvailable {
-			spots = append(spots, &ClassSpot{
-				ID:       spot.ID,
-				Name:     spot.Name,
-				SpotType: spot.SpotType.Name,
-			})
-		}
+		spots = append(spots, &ClassSpot{
+			ID:          spot.ID,
+			Name:        spot.Name,
+			SpotType:    spot.SpotType.Name,
+			IsAvailable: spot.IsAvailable,
+			XPosition:   spot.XPosition,
+			YPosition:   spot.YPosition,
+		})
 	}
 
 	return spots, nil
