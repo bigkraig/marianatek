@@ -2,6 +2,9 @@ package marianatek
 
 import (
 	"context"
+	"encoding/json"
+	"fmt"
+	"io"
 )
 
 type ReservationsService service
@@ -100,4 +103,64 @@ func (s *ReservationsService) Reserve(ctx context.Context, opts *ReserveOptions)
 	}
 
 	return rResp, resp.Includes, nil
+}
+
+// CancelPenalty represents the response from the cancel penalty endpoint
+type CancelPenalty struct {
+	IsPenaltyCancel bool    `json:"is_penalty_cancel"`
+	Message         *string `json:"message"`
+}
+
+// GetCancelPenalty checks if cancelling a reservation will incur a penalty
+func (s *ReservationsService) GetCancelPenalty(ctx context.Context, reservationID int64) (*CancelPenalty, error) {
+	u := fmt.Sprintf("customer/v1/me/reservations/%d/cancel_penalty", reservationID)
+
+	req, err := s.client.NewRequest("GET", u, nil)
+	if err != nil {
+		return nil, err
+	}
+
+	resp, err := s.client.client.Do(req.WithContext(ctx))
+	if err != nil {
+		return nil, err
+	}
+	defer resp.Body.Close()
+
+	if err := CheckResponse(resp); err != nil {
+		return nil, err
+	}
+
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, err
+	}
+
+	var penalty CancelPenalty
+	if err := json.Unmarshal(body, &penalty); err != nil {
+		return nil, err
+	}
+
+	return &penalty, nil
+}
+
+// Cancel cancels a reservation by ID
+func (s *ReservationsService) Cancel(ctx context.Context, reservationID int64) error {
+	u := fmt.Sprintf("customer/v1/me/reservations/%d/cancel", reservationID)
+
+	req, err := s.client.NewRequest("POST", u, nil)
+	if err != nil {
+		return err
+	}
+
+	resp, err := s.client.client.Do(req.WithContext(ctx))
+	if err != nil {
+		return err
+	}
+	defer resp.Body.Close()
+
+	if err := CheckResponse(resp); err != nil {
+		return err
+	}
+
+	return nil
 }
